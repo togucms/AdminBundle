@@ -1,0 +1,14 @@
+{
+    "name": "togu/admin-bundle",
+    "description": "Togu Admin Bundle",
+    "require": {
+        "symfony-cmf/symfony-cmf": "1.2.*"
+    },
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Alessandro Siragusa",
+            "email": "alessandro.siragusa@gmail.com"
+        }
+    ]
+}
