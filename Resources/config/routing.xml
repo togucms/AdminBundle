@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="togu_admin_applications" pattern="/applications">
+        <default key="_controller">ToguAdminBundle:AdminInterface:applications</default>
+    </route>
+    
+    <route id="togu_admin_models" pattern="/models">
+        <default key="_controller">ToguAdminBundle:AdminInterface:models</default>
+    </route>
+    
+    <import resource="@TpgExtjsBundle/Resources/config/routing.yml" prefix="/extjs" />
+
+</routes>

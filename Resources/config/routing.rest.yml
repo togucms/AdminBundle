@@ -1,0 +1,16 @@
+
+_togu_admin_bundle_entities_rest:
+    type: rest
+    resource: Togu\AdminBundle\Controller\EntitiesController
+    name_prefix: _togu_admin_bundle_api_
+
+    
+_togu_admin_bundle_section_tree_rest:
+    type: rest
+    resource: Togu\AdminBundle\Controller\SectionTreeController
+    name_prefix: _togu_admin_bundle_api_
+    
+_togu_admin_bundle_page_rest:
+    type: rest
+    resource: Togu\AdminBundle\Controller\PageController
+    name_prefix: _togu_admin_bundle_api_

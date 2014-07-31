@@ -1,2 +1,2 @@
-AdminBundle
+Togu CMS AdminBundle
 ===========
