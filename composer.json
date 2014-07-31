@@ -2,6 +2,7 @@
     "name": "togu/admin-bundle",
     "description": "Togu Admin Bundle",
     "require": {
+	"symfony-cmf/symfony-cmf": "1.2.*@dev",
     },
     "license": "GPL v3",
     "authors": [
