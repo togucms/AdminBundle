@@ -4,6 +4,11 @@
     "require": {
     },
     "license": "GPL v3",
+    "autoload": {
+        "psr-4": {
+            "Togu\\AdminBundle\\": ""
+        }
+    },
     "authors": [
         {
             "name": "Alessandro Siragusa",
