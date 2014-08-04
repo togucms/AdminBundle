@@ -21,7 +21,6 @@
 
 namespace Togu\AdminBundle\Controller;
 
-use Doctrine\ORM\EntityManager;
 use FOS\RestBundle\Controller\FOSRestController;
 use FOS\RestBundle\Request\ParamFetcherInterface;
 use FOS\RestBundle\Controller\Annotations\QueryParam;
@@ -30,7 +29,6 @@ use FOS\RestBundle\Controller\Annotations\Route;
 use \JMS\Serializer\SerializationContext;
 use \Doctrine\DBAL\DBALException;
 use \JMS\Serializer\DeserializationContext;
-use Application\Togu\ApplicationModelsBundle\Document\Page;
 
 /**
  * Class PageController

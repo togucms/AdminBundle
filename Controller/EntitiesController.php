@@ -21,7 +21,6 @@
 
 namespace Togu\AdminBundle\Controller;
 
-use Doctrine\ORM\EntityManager;
 use FOS\RestBundle\Controller\FOSRestController;
 use FOS\RestBundle\Request\ParamFetcherInterface;
 use FOS\RestBundle\Controller\Annotations\QueryParam;
