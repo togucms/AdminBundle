@@ -30,6 +30,7 @@ use \Doctrine\DBAL\DBALException;
 use \JMS\Serializer\DeserializationContext;
 use FOS\RestBundle\Controller\Annotations\Route;
 use Application\Togu\ApplicationModelsBundle\Document\Page;
+use Application\Togu\ApplicationModelsBundle\Document\Section;
 
 
 /**
@@ -92,7 +93,11 @@ class SectionTreeController extends FOSRestController {
 
         $parent = $manager->find(null, $id);
 
-        $children = $parent->getSectionConfig()->getNextSection();
+        if(! $parent instanceof Section) {
+        	$parent = $parent->getSectionConfig();
+        }
+
+        $children = $parent->getNextSection();
         $list = array();
         foreach ($children as $section) {
         	$list[] = $section->getSectionConfig();
